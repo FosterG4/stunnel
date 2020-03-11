@@ -1,5 +1,5 @@
 # Centos 6 
-# install stuunel
+# install stunnel
 
 yum install epel-release
 yum update
