@@ -15,11 +15,15 @@ nano /etc/pesan ( put anyting you want ) this just message if user login to your
 
 nano /etc/sysconfig/dropbear
 
+# config dropbear
+
 OPTIONS="-p 80 -p 109 -p 110 -p 445 -b /etc/pesan"
+
+and save ctrl + x and y
 
 # stunnel init config
 
-init config https://raw.githubusercontent.com/FosterG4/stunnel/master/stunnel
+put init config on https://raw.githubusercontent.com/FosterG4/stunnel/master/stunnel
 
 put stunnel config to /etc/init.d/stunnel 
 
